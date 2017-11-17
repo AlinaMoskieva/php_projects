@@ -1,0 +1,18 @@
+.calk-title {
+  text-align: center;
+}
+.calk-form {
+  width: 350px;
+  margin: auto;
+}
+
+.calk-form input {
+  width: 60px;
+  float: left;
+  margin-left: 10px;
+}
+
+.calk-first_number {
+  clear: left;
+}
+

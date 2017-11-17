@@ -1,0 +1,14 @@
+{
+    "name": "moskieva/try_composer",
+    "type": "project",
+    "license": "no",
+    "authors": [
+        {
+            "name": "Alina Moskieva",
+            "email": "alinamoskieva@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^1.33"
+    }
+}

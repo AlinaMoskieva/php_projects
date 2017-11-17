@@ -1,0 +1,57 @@
+<title>MVC PHP</title><html>
+  <head>
+    <meta charset="utf-8">
+    <title>MVC PHP</title>
+
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+  <body>
+
+    <!-- Top Menu -->
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="/">Home</a></li>
+                          <li><a href = "/session/new">Sign in</a></li>
+              <li><a href = "/registration/new">Register</a></li>
+                        </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Centered Pane -->
+    <div class="main-pane">
+<h1>Users List</h1>
+<div class="user-list row">
+
+      <div class="profile-thumbnail">
+      <a href="/user/show/1" class="profile-link">
+        <img src="https://pp.userapi.com/c837124/v837124792/35e24/KK1zdOSOqlU.jpg" alt="Name Surname" class="profile-avatar">
+        <h3 class="profile-name">alina</h3>
+      </a>
+    </div>
+        <div class="profile-thumbnail">
+      <a href="/user/show/2" class="profile-link">
+        <img src="https://pp.userapi.com/c837124/v837124792/35e24/KK1zdOSOqlU.jpg" alt="Name Surname" class="profile-avatar">
+        <h3 class="profile-name">alina</h3>
+      </a>
+    </div>
+        <div class="profile-thumbnail">
+      <a href="/user/show/3" class="profile-link">
+        <img src="https://pp.userapi.com/c837631/v837631792/4e4c5/TtIo1SXWEHc.jpg" alt="Name Surname" class="profile-avatar">
+        <h3 class="profile-name">Alina</h3>
+      </a>
+    </div>
+        <div class="profile-thumbnail">
+      <a href="/user/show/4" class="profile-link">
+        <img src="https://pp.userapi.com/c636926/v636926792/5a213/4CbQW7dZYpU.jpg" alt="Name Surname" class="profile-avatar">
+        <h3 class="profile-name">Alina</h3>
+      </a>
+    </div>
+    
+</div>
+    </div>
+  </body>
+</html>
